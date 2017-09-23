@@ -1,0 +1,21 @@
+{
+  "name": "paistitshare/itravel",
+  "description": "Simple PHP Framework.",
+  "keywords": ["simple", "itravel", "framework"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stanislav Bobrovnik",
+      "email": "s.bobrovnik@itransition.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ItravelApp\\": "app/Itravel/",
+      "Itravel\\": "src/Itravel/"
+    }
+  }
+}

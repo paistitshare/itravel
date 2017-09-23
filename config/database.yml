@@ -1,0 +1,16 @@
+
+development:
+  driver:
+  host:
+  database:
+  username:
+  password:
+  charset:
+
+production:
+  driver:
+  host:
+  database:
+  username:
+  password:
+  charset:
