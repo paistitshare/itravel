@@ -10,11 +10,12 @@
     }
   ],
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "twig/twig": "*"
   },
   "autoload": {
     "psr-4": {
-      "ItravelApp\\": "app/Itravel/",
+      "App\\": "app/",
       "Itravel\\": "src/Itravel/"
     }
   }

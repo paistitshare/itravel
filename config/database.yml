@@ -1,11 +1,10 @@
 
 development:
-  driver:
-  host:
-  database:
-  username:
-  password:
-  charset:
+  driver: mysql
+  host: localhost
+  database: itravel
+  username: itravel
+  password: itravel
 
 production:
   driver:
@@ -13,4 +12,3 @@ production:
   database:
   username:
   password:
-  charset:
